@@ -53,7 +53,18 @@ border-radius: 5px;
   
 </head>
 <body>
+<div class="container">
+<h1>My To-Do App</h1>
+<p id="status">Loading...</p>
 
-    
-</body>  
+<input type="text" id="taskInput" placeholder="Enter a new task">
+<button id="addBtn">Add Task</button>
+
+<h2>Your Tasks:</h2>
+<ul id="taskList"></ul>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js"></script>
+<script src="app.js"></script>
+</body>
 </html>
